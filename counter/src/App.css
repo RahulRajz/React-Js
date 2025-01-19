@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    padding: 3rem;
+    border-radius: 5px  ;
+    background-color: rgb(192, 192, 147);
+    display: flex;
+    flex-direction: column;
+    color: red;
+    gap: 10px;
+    font-size: 1.3rem;
+}
