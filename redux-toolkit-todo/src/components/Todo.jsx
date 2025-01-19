@@ -12,7 +12,7 @@ const Todo = () => {
         <h1>My Todo</h1>
       </div>
       {todos.map((todo) => (
-        <li key={todo.id}>
+        <li type="1" key={todo.id}>
           {todo.text}
 
           <button onClick={() => dispatch(removeTodo(todo.id))}>

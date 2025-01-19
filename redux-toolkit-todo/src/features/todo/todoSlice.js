@@ -4,7 +4,7 @@ import {createSlice, nanoid} from '@reduxjs/toolkit';
 const initialState = {
     todos:[{
         id: 1,
-        text: 'Hello World'
+        text: 'Learn Redux Toolkit by Chai aur Code(Himesh Chaudhary)'
     }]
 }
 
